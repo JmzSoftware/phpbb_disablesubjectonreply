@@ -1,0 +1,26 @@
+{
+    "name": "jmz/disablesubject",
+    "type": "phpbb-extension",
+    "description": "Disable editing of the subject for replies",
+    "homepage": "https://jmzsoftware.com",
+    "version": "1.0.0",
+    "time": "2016-11-10",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Jmz Software",
+            "email": "support@jmzsoftware.com",
+            "homepage": "https://jmzsoftware.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Disable subject editing",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.4,<3.2.0@dev"
+        }
+    }
+}

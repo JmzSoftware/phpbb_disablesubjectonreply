@@ -1,0 +1,7 @@
+services:
+    jmz.disablesubject.listener:
+        class: jmz\disablesubject\event\main_listener
+        arguments:
+            - '@template'
+        tags:
+            - { name: event.listener }
